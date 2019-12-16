@@ -1,0 +1,28 @@
+{
+  "name": "marvel-api-test",
+  "version": "1.0.0",
+  "description": "Teste automatizado da API da Marvel",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --require mocha-steps --timeout 0 "
+  },
+  "keywords": [
+    "rest",
+    "test",
+    "node"
+  ],
+  "author": "matheusgeres",
+  "license": "MIT",
+  "devDependencies": {
+    "async": "^3.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "mocha-logger": "^1.0.6",
+    "mocha-steps": "^1.3.0",
+    "request": "^2.88.0",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "md5": "^2.2.1"
+  }
+}
